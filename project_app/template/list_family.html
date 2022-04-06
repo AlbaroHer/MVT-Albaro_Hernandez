@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h3>
+            <p>Datos familiares</p>
+            <ul>
+            {% for familia in familia %}
+
+                <li>Nombre: {{familia.nombre}}</li>
+                <li>Apellido: {{familia.apellido}}</li>
+                <li>Edad: {{familia.edad}}</li>
+                <li>Fecha de nacimiento: {{familia.fecha}}</li>
+            
+            {% endfor %}
+            </ul>
+        </h3>
+    </body>
+</html>
