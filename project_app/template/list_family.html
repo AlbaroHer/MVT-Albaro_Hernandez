@@ -1,5 +1,8 @@
 <html>
     <body>
+
+        {% include "superior/barra.html" %}
+
         <h3>
             <p>Datos familiares</p>
             <ul>
@@ -9,6 +12,7 @@
                 <li>Apellido: {{familia.apellido}}</li>
                 <li>Edad: {{familia.edad}}</li>
                 <li>Fecha de nacimiento: {{familia.fecha}}</li>
+                <ul>--------------------------------------</ul>
             
             {% endfor %}
             </ul>
